@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Поле для ввода имени товара -->
+    <EditText
+        android:id="@+id/editTextShopItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите название товара"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Поле для ввода количества товара -->
+    <EditText
+        android:id="@+id/editTextShopItemCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите количество товара"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Кнопка для добавления товара -->
+    <Button
+        android:id="@+id/buttonAddShopItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить товар"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
